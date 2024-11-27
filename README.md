@@ -76,7 +76,7 @@ pip install -r requirements.txt
     - Authenticate your Google account in the browser.
     - Grant permissions for Gmail and Calendar access.
 
-3.  Subsequent runs will use the stored token.json.
+3.  Subsequent runs will use the stored `token.json`.
 
 ## **How It Works**
 
