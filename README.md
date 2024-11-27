@@ -50,8 +50,11 @@ git clone https://github.com/your-repository-url/email-task-automation.git  cd e
 ### **3\. Configure Environment Variables**
 
 1.  Create a .env file in the project folder.
-2.  envCopy codeSENDER=specific-email@example.comFLIGHT_KEYWORD=quotation for flight ticketsMEETING_KEYWORD=schedule an online meeting
-
+2.  ```bash
+    SENDER=specific-email@example.com
+    FLIGHT_KEYWORD=quotation for flight tickets
+    MEETING_KEYWORD=schedule an online meeting
+    ```
     - Replace specific-email@example.com with the sender’s email address you want to monitor.
     - Replace keywords as needed.
 
@@ -60,12 +63,14 @@ git clone https://github.com/your-repository-url/email-task-automation.git  cd e
 Install the required Python libraries using pip:
 
 ```bash
-pip install -r requirements.txt  `
+pip install -r requirements.txt
 ```
 
 ### **5\. Run the Script**
 
-1.  bashCopy codepython main.py
+1.  ```bash
+    python main.py
+    ```
 2.  On the first run:
 
     - Authenticate your Google account in the browser.
