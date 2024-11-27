@@ -44,12 +44,12 @@ git clone https://github.com/your-repository-url/email-task-automation.git  cd e
 
     - Navigate to **APIs & Services > Credentials**.
     - Select **Create Credentials > OAuth 2.0 Client ID**.
-    - Configure the consent screen and download the credentials.json file.
-    - Place credentials.json in the project root folder.
+    - Configure the consent screen and download the `credentials.json` file.
+    - Place `credentials.json` in the project root folder.
 
 ### **3\. Configure Environment Variables**
 
-1.  Create a .env file in the project folder.
+1.  Create a `.env` file in the project folder.
 2.  ```bash
     SENDER=specific-email@example.com
     FLIGHT_KEYWORD=quotation for flight tickets
