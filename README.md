@@ -11,7 +11,15 @@ This guide provides step-by-step instructions for setting up and running the **E
 
 ## **Project Folder Structure**
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  bashCopy codeemail-task-automation/  │  ├── main.py               # Main script  ├── credentials.json      # OAuth2 credentials (from Google Cloud)  ├── token.json            # Generated token after authentication  ├── .env                  # Environment variables  ├── requirements.txt      # Dependencies  `
+```bash
+email-task-automation/
+│
+├── main.py               # Main script
+├── credentials.json      # OAuth2 credentials (from Google Cloud)
+├── token.json            # Generated token after authentication
+├── .env                  # Environment variables
+├── requirements.txt      # Dependencies
+```
 
 ## **Setup Instructions**
 
@@ -19,7 +27,9 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 Download or clone the project repository to your local machine:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  bashCopy codegit clone https://github.com/your-repository-url/email-task-automation.git  cd email-task-automation  `
+```bash
+git clone https://github.com/your-repository-url/email-task-automation.git  cd email-task-automation
+```
 
 ### **2\. Enable Google APIs**
 
@@ -49,7 +59,9 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 Install the required Python libraries using pip:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  bashCopy codepip install -r requirements.txt  `
+```bash
+pip install -r requirements.txt  `
+```
 
 ### **5\. Run the Script**
 
